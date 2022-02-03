@@ -107,3 +107,16 @@
 .githublogo {
   height: 1em;
 }
+
+.sitename {
+  margin-right: 1em;
+}
+
+.sitename a {
+  color: #fff;
+}
+
+.toolbarButton {
+  color: #fff;
+  display: inline-block;
+}

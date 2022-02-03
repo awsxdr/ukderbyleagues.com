@@ -1,11 +1,20 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-import leagues from '../data/leagues.json'
-import { AppBar, Box, IconButton, Link, Toolbar, Typography } from '@mui/material'
-import MenuIcon from '@mui/icons-material/Menu'
-import Map from '../components/map'
+import React, { useState } from 'react'
+import Head from 'next/head';
+import styles from '../styles/Home.module.css';
+import leagues from '../data/leagues.json';
+import { AppBar, Box, Button, Container, IconButton, Link, Toolbar, Typography } from '@mui/material';
+import Map from '../components/map';
+import AboutModal from '../components/about';
+import TeamList from '../components/teamlist';
+import Distances from '../components/distances';
+import { githubLogo } from '../components/images';
 
 const Home = () => {
+
+  const [isAboutModalOpen, setIsAboutModalOpen] = useState(false);
+  const [isTeamListModalOpen, setIsTeamListModalOpen] = useState(false);
+  const [isDistancesModalOpen, setIsDistancesModalOpen] = useState(false);
+
   return (
     <div className={styles.container}>
       <Head>
@@ -25,12 +34,23 @@ const Home = () => {
 
       <main className={styles.main}>
         <AppBar position="fixed">
-          <Toolbar>
-            <IconButton size="large" edge="start" color="inherit" aria-label="menu">
+          <Toolbar className={styles.toolbar}>
+            {/* <IconButton size="large" edge="start" color="inherit" aria-label="menu">
               <MenuIcon />
-            </IconButton>
+            </IconButton> */}
+            <Typography variant="h6" noWrap component="div" className={styles.sitename}>
+              RollerDerbyLeagues UK
+            </Typography>
+            <Box sx={{ flexGrow: 1 }}>
+              <Button onClick={() => setIsAboutModalOpen(true)} className={styles.toolbarButton}>About</Button>
+              <Button onClick={() => setIsTeamListModalOpen(true)} className={styles.toolbarButton}>Teams</Button>
+              <Button onClick={() => setIsDistancesModalOpen(true)} className={styles.toolbarButton}>Distance calculator</Button>
+            </Box>
           </Toolbar>
         </AppBar> 
+        <AboutModal open={isAboutModalOpen} onClose={() => setIsAboutModalOpen(false)} />
+        <TeamList teams={leagues} open={isTeamListModalOpen} onClose={() => setIsTeamListModalOpen(false)} />
+        <Distances teams={leagues} open={isDistancesModalOpen} onClose={() => setIsDistancesModalOpen(false)} />
         <Map leagues={leagues} />
         <AppBar position="fixed" className={styles.footer} sx={{ top: 'auto', bottom: 0}}>
           <Toolbar>
@@ -40,7 +60,7 @@ const Home = () => {
             <Box>
               <IconButton>
                 <Link href="https://github.com/awsxdr/rollerderbyleagues.co.uk" target="_new">
-                  <img className={styles.githublogo} src="img/GitHub_Logo.png" />
+                  <img className={styles.githublogo} src={githubLogo} />
                 </Link>
               </IconButton>
             </Box>
