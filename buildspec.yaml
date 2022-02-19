@@ -9,7 +9,6 @@ phases:
   build:
     on-failure: ABORT
     commands:
-      - printenv
       - npm i
       - npm run build-static
 
