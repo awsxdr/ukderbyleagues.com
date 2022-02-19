@@ -14,6 +14,7 @@ phases:
 
 artifacts:
   files:
-    - out/*
-  discard-paths: yes
+    - '**/*'
+  discard-paths: no
+  base-directory: out
   name: build-output
