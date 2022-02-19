@@ -16,4 +16,3 @@ artifacts:
   files:
     - out/*
   name: build-output
-  
