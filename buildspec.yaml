@@ -4,6 +4,7 @@ phases:
   build:
     on-failure: ABORT
     commands:
+      - npm i
       - npm run build-static
 
 artifacts:
