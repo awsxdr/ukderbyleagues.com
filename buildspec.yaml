@@ -1,15 +1,12 @@
 version: 0.1
 
 phases:
-  install:
-    on-failure: ABORT
-    commands:
-      - ls
-      - npm i
-
   build:
     on-failure: ABORT
+    runtime-versions:
+      node: latest
     commands:
+      - npm i
       - npm run build-static
 
 artifacts:
