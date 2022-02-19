@@ -1,13 +1,10 @@
 version: 0.1
 
 phases:
-  debug:
-    commands:
-      - ls
-
   install:
     on-failure: ABORT
     commands:
+      - ls
       - npm i
 
   build:
