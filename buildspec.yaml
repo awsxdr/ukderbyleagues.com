@@ -1,10 +1,18 @@
 version: 0.1
 
 phases:
-  build:
+  debug:
+    commands:
+      - ls
+
+  install:
     on-failure: ABORT
     commands:
       - npm i
+
+  build:
+    on-failure: ABORT
+    commands:
       - npm run build-static
 
 artifacts:
