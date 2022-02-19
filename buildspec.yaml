@@ -1,10 +1,13 @@
 version: 0.1
 
 phases:
-  build:
+  install:
     on-failure: ABORT
     runtime-versions:
       node: latest
+
+  build:
+    on-failure: ABORT
     commands:
       - npm i
       - npm run build-static
