@@ -40,7 +40,7 @@ const Distances = ({ open, onClose, teams }) => {
         selectedTeam
         ? 
             teams.map(team => { return { 
-                distance: getDistance(team).toFixed(1),
+                distance: getDistance(team),
                 name: team.name, 
                 url: team.url, 
                 lat: team.lat, 
@@ -125,7 +125,7 @@ const Distances = ({ open, onClose, teams }) => {
                                                 <img key={`${team.name}-${membership}`} src={logos[membership]} width="32" height="32" />
                                             ))}                                            
                                         </TableCell>
-                                        <TableCell>{selectedTeam && team.distance}</TableCell>
+                                        <TableCell>{selectedTeam && team.distance.toFixed(1)}</TableCell>
                                         <TableCell><Link href={team.url} target="_blank">Website</Link></TableCell>
                                     </TableRow>
                                 ))}
