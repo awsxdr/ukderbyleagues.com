@@ -18,14 +18,14 @@ const Home = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Roller Derby Leagues UK</title>
+        <title>UK Roller Derby Leagues</title>
         <meta name="description" content="Find local roller derby teams in the UK using our comprehensive list of active leagues" />
         <meta name="keywords" content={['roller derby', 'roller skates', 'skating', 'teams', 'leagues', 'UK', 'England', 'Scotland', 'Northern Ireland', 'Wales', 'roller derby leagues', 'roller derby teams', 'derby leagues', 'derby teams', 'UKRDA', 'WFTDA', 'MRDA', ...leagues.map(l => l.Name)]} />
         <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
         <meta property="og:image" content="http://rollerderbyleagues.co.uk/images/thumbnail.png" />
         <meta property="og:url" content="http://rollerderbyleagues.co.uk" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Roller Derby Leagues UK" />
+        <meta property="og:title" content="UK Roller Derby Leagues" />
         <meta property="og:description" content="Find local roller derby teams in the UK using our comprehensive list of active leagues" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
@@ -39,7 +39,7 @@ const Home = () => {
               <MenuIcon />
             </IconButton> */}
             <Typography variant="h6" noWrap component="div" className={styles.sitename}>
-              RollerDerbyLeagues UK
+              UK Roller Derby Leagues
             </Typography>
             <Box sx={{ flexGrow: 1 }}>
               <Button onClick={() => setIsAboutModalOpen(true)} className={styles.toolbarButton}>About</Button>
