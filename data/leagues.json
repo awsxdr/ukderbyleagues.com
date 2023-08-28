@@ -67,7 +67,7 @@
     {"name":"North Devon Roller Derby","url":"http://www.facebook.com/northdevonrollerderby","lng":-4.218327,"lat":51.016678,"type":"wftda+jrda","memberships":[]},
     {"name":"North Wales Roller Derby","url":"http://www.facebook.com/northwalesrollerderby","lng":-3.027054,"lat":53.207966,"type":"wftda+mrda","memberships":[]},
     {"name":"Nottingham Roller Derby","url":"http://nottsrollerderby.co.uk","lng":-1.187552,"lat":52.91104,"type":"wftda","memberships":[]},
-    {"name":"Orkney Roller Derby","url":"http://www.facebook.com/OrkneyRollerDerby","lng":-2.9729438,"lat":58.982967,"type":"wftda","memberships":[]},
+    {"name":"Orkney Roller Derby","url":"http://www.facebook.com/OrkneyRollerDerby","lng":-2.9729438,"lat":58.982967,"type":"mrda","memberships":[]},
     {"name":"Oxford Roller Derby","url":"http://www.oxfordrollerderby.com","lng":-1.197895,"lat":51.71947,"type":"wftda","memberships":["wftda"]},
     {"name":"Plymouth City Roller Derby","url":"http://www.plymouthcityrollerderby.co.uk","lng":-4.152876,"lat":50.386456,"type":"wftda","memberships":["wftda"]},
     {"name":"Portsmouth Roller Wenches","url":"http://www.facebook.com/PortsmouthRollerWenches","lng":-0.981514,"lat":50.858013,"type":"wftda","memberships":["wftda"]},
