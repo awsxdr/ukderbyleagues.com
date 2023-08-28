@@ -69,7 +69,6 @@
     {"name":"Oxford Roller Derby","url":"http://www.oxfordrollerderby.com","lng":-1.197895,"lat":51.71947,"type":"wftda","memberships":["wftda"]},
     {"name":"Plymouth City Roller Derby","url":"http://www.plymouthcityrollerderby.co.uk","lng":-4.152876,"lat":50.386456,"type":"wftda","memberships":["wftda"]},
     {"name":"Portsmouth Roller Wenches","url":"http://www.facebook.com/PortsmouthRollerWenches","lng":-0.981514,"lat":50.858013,"type":"wftda","memberships":["wftda"]},
-    {"name":"Portsmouth Scurvy Dogs","url":"http://www.facebook.com/PortsmouthScurvyDogs","lng":-1.041652,"lat":50.886757,"type":"mrda","memberships":[]},
     {"name":"Preston Roller Derby","url":"http://www.facebook.com/prestonrollers","lng":-2.699509,"lat":53.785065,"type":"mrda","memberships":[]},
     {"name":"Railtown Loco Rollers","url":"http://www.facebook.com/RailtownLocoRollers","lng":-2.434657,"lat":53.10537,"type":"wftda","memberships":[]},
     {"name":"Rainy City Roller Derby","url":"http://rainycityrollerderby.com","lng":-2.275217,"lat":53.489613,"type":"wftda+jrda","memberships":["wftda"]},
