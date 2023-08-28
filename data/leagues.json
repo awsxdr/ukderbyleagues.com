@@ -3,7 +3,7 @@
     {"name":"Apex Predators Roller Derby","url":"http://www.apexpredatorsrd.co.uk","lng":0.497908,"lat":51.35927,"type":"wftda+mrda","memberships":[]},
     {"name":"Arcadia Roller Derby","url":"https://www.facebook.com/arcadiarollerderby","lng":-2.21233,"lat":53.46426,"type":"wftda","memberships":[]},
     {"name":"Auld Reekie Roller Derby","url":"http://www.auldreekierollerderby.com","lng":-3.156107,"lat":55.95612,"type":"wftda","memberships":["wftda"]},
-    {"name":"Basingstoke Bullets Roller Derby","url":"http://www.facebook.com/BasingstokeBullets","lng":-1.334678,"lat":51.22563,"type":"wftda","memberships":[]},
+    {"name":"Basingstoke Bullets Roller Derby","url":"http://www.facebook.com/BasingstokeBullets","lng":-1.334678,"lat":51.22563,"type":"mrda","memberships":[]},
     {"name":"Bath Roller Derby","url":"http://www.bathrollerderby.co.uk","lng":-2.354332,"lat":51.381474,"type":"wftda","memberships":[]},
     {"name":"Belfast Roller Derby","url":"http://www.belfastrollerderby.com","lng":-5.930748,"lat":54.66122,"type":"wftda","memberships":["wftda"]},
     {"name":"Big Bucks High Rollers","url":"http://www.bigbuckshighrollers.com","lng":-0.763564,"lat":51.615143,"type":"wftda","memberships":[]},
