@@ -56,7 +56,7 @@
     {"name":"Lothian Roller Derby","url":"http://www.lothianrollerderby.co.uk","lng":-3.11765,"lat":55.93203,"type":"wftda","memberships":[]},
     {"name":"Loughborough Roller Derby","url":"http://www.facebook.com/LoughboroughRollerDerbyLeague","lng":-1.358198,"lat":52.738586,"type":"mrda","memberships":[]},
     {"name":"Manchester Roller Derby","url":"http://www.manchesterrollerderby.com","lng":-2.161414,"lat":53.47424,"type":"wftda+mrda","memberships":["wftda","mrda"]},
-    {"name":"Mean City Roller Derby","url":"http://www.facebook.com/MeanCityRollerDerby","lng":-4.248868,"lat":55.865963,"type":"wftda+mrda","memberships":[]},
+    {"name":"Mean City Roller Derby","url":"http://www.facebook.com/MeanCityRollerDerby","lng":-4.248868,"lat":55.865963,"type":"mrda","memberships":[]},
     {"name":"Middlesbrough Roller Derby","url":"http://www.middlesbroughrollerderby.co.uk","lng":-1.166204,"lat":54.569347,"type":"wftda","memberships":["wftda"]},
     {"name":"Milton Keynes Roller Derby","url":"http://www.miltonkeynesrollerderby.org","lng":-0.726534,"lat":51.996838,"type":"wftda+mrda","memberships":["mrda"]},
     {"name":"New Town Roller Derby","url":"https://www.facebook.com/NewTownRollerDerby","lng":-3.503542,"lat":55.902363,"type":"wftda","memberships":[]},
