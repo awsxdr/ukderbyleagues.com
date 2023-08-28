@@ -5,7 +5,7 @@
     {"name":"Auld Reekie Roller Derby","url":"http://www.auldreekierollerderby.com","lng":-3.156107,"lat":55.95612,"type":"wftda","memberships":["wftda"]},
     {"name":"Bairn City Rollers","url":"http://www.facebook.com/BairnCityRollers","lng":-3.72149,"lat":56.01159,"type":"wftda+mrda","memberships":[]},
     {"name":"Barnsley Black Heart Rollers","url":"http://www.barnsleyblackheartrollers.co.uk","lng":-1.482615,"lat":53.560467,"type":"wftda","memberships":[]},
-    {"name":"Basingstoke Bullets Roller Derby","url":"http://www.facebook.com/BasingstokeBullets","lng":-1.334678,"lat":51.22563,"type":"wftda","memberships":[]},
+    {"name":"Basingstoke Bullets Roller Derby","url":"http://www.facebook.com/BasingstokeBullets","lng":-1.334678,"lat":51.22563,"type":"mrda","memberships":[]},
     {"name":"Bath Roller Derby","url":"http://www.bathrollerderby.co.uk","lng":-2.354332,"lat":51.381474,"type":"wftda","memberships":[]},
     {"name":"Bedfordshire Roller Derby","url":"http://www.facebook.com/BedfordRollerDerby","lng":-0.459594,"lat":52.150597,"type":"wftda","memberships":[]},
     {"name":"Belfast Roller Derby","url":"http://www.belfastrollerderby.com","lng":-5.930748,"lat":54.66122,"type":"wftda","memberships":["wftda"]},
