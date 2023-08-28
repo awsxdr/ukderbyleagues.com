@@ -1,6 +1,6 @@
 [
     {"name":"Aire Force One","url":"https://www.facebook.com/AireForceOne","lng":-1.576925,"lat":53.76605,"type":"mrda","memberships":[]},
-    {"name":"Apex Predators Roller Derby","url":"http://www.apexpredatorsrd.co.uk","lng":0.497908,"lat":51.35927,"type":"wftda+mrda","memberships":[]},
+    {"name":"Apex Predators Roller Derby","url":"http://www.apexpredatorsrd.co.uk","lng":0.497908,"lat":51.35927,"type":"mrda","memberships":[]},
     {"name":"Arcadia Roller Derby","url":"https://www.facebook.com/arcadiarollerderby","lng":-2.21233,"lat":53.46426,"type":"wftda","memberships":[]},
     {"name":"Auld Reekie Roller Derby","url":"http://www.auldreekierollerderby.com","lng":-3.156107,"lat":55.95612,"type":"wftda","memberships":["wftda"]},
     {"name":"Basingstoke Bullets Roller Derby","url":"http://www.facebook.com/BasingstokeBullets","lng":-1.334678,"lat":51.22563,"type":"mrda","memberships":[]},
