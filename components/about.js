@@ -12,10 +12,10 @@ const AboutModal = ({ open, onClose }) => {
         >
             <Box className={styles.modal}>
                 <Typography variant="h6" component="h2">
-                    About RollerDerbyLeagues UK
+                    About UKDerbyLeagues
                 </Typography>
                 <Typography sx={{ mt: 2 }}>
-                    Welcome to RollerDerbyLeagues.co.uk!
+                    Welcome to UKDerbyLeagues.com!
                 </Typography>
                 <Typography sx={{ mt: 2 }}>
                     Our aim is to list all active flat-track, WFTDA rules roller derby leagues in the UK and show where they train or play to make it easier to find teams near you to join or play against.
