@@ -22,8 +22,8 @@ const Home = () => {
         <meta name="description" content="Find local roller derby teams in the UK using our comprehensive list of active leagues" />
         <meta name="keywords" content={['roller derby', 'roller skates', 'skating', 'teams', 'leagues', 'UK', 'England', 'Scotland', 'Northern Ireland', 'Wales', 'roller derby leagues', 'roller derby teams', 'derby leagues', 'derby teams', 'UKRDA', 'WFTDA', 'MRDA', ...leagues.map(l => l.Name)]} />
         <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
-        <meta property="og:image" content="http://rollerderbyleagues.co.uk/images/thumbnail.png" />
-        <meta property="og:url" content="http://rollerderbyleagues.co.uk" />
+        <meta property="og:image" content="http://ukderbyleagues.com/images/thumbnail.png" />
+        <meta property="og:url" content="http://ukderbyleagues.com" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="UK Roller Derby Leagues" />
         <meta property="og:description" content="Find local roller derby teams in the UK using our comprehensive list of active leagues" />
@@ -55,11 +55,11 @@ const Home = () => {
         <AppBar position="fixed" className={styles.footer} sx={{ top: 'auto', bottom: 0}}>
           <Toolbar>
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-              Copyright © {new Date().getFullYear()} Daniel Errington. Please e-mail <Link href="mailto:contact@rollerderbyleagues.co.uk">contact@rollerderbyleagues.co.uk</Link> with any queries.
+              Copyright © {new Date().getFullYear()} Daniel Errington. Please e-mail <Link href="mailto:contact@ukderbyleagues.com">contact@ukderbyleagues.com</Link> with any queries.
             </Typography>
             <Box>
               <IconButton>
-                <Link href="https://github.com/awsxdr/rollerderbyleagues.co.uk" target="_new">
+                <Link href="https://github.com/awsxdr/ukderbyleagues.com" target="_new">
                   <img className={styles.githublogo} src={githubLogo} />
                 </Link>
               </IconButton>
