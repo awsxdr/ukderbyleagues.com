@@ -85,7 +85,7 @@
     {"name":"Vendetta Vixens","url":"http://www.facebook.com/VVNorthampton","lng":-1.159528,"lat":52.259434,"type":"wftda","memberships":[]},
     {"name":"Wakey Wheeled Cats","url":"http://wakeywheeledcats.co.uk","lng":-1.497849,"lat":53.686604,"type":"wftda","memberships":[]},
     {"name":"Wearside Roller Derby","url":"http://www.wearsiderollerderby.com","lng":-1.448427,"lat":54.918056,"type":"mrda","memberships":[]},
-    {"name":"Wiltshire Roller Derby","url":"http://www.wiltshirerollerderby.co.uk","lng":-1.818467,"lat":51.60324,"type":"wftda+mrda","memberships":["wftda"]},
-    {"name":"Wirral Roller Derby","url":"http://wirralrollerderby.co.uk","lng":-3.09311,"lat":53.413208,"type":"wftda+mrda","memberships":["mrda"]},
     {"name":"Wight Rocking Rollers","url":"http://www.facebook.com/profile.php?id=61579921259368","lng":-1.2959154,"lat":50.7067791,"type":"mrda","memberships":[]},
+    {"name":"Wiltshire Roller Derby","url":"http://www.wiltshirerollerderby.co.uk","lng":-1.818467,"lat":51.60324,"type":"wftda+mrda","memberships":["wftda"]},
+    {"name":"Wirral Roller Derby","url":"http://wirralrollerderby.co.uk","lng":-3.09311,"lat":53.413208,"type":"wftda+mrda","memberships":["mrda"]}
     ]
