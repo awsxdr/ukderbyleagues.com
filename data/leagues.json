@@ -23,7 +23,7 @@
     {"name":"Devon Roller Derby","url":"http://www.facebook.com/profile.php?id=100091460372998","lng":-4.219539,"lat":51.016350,"type":"wftda","memberships":[]},
     {"name":"Dolly Rockit Rollers","url":"http://www.facebook.com/dollyrockits","lng":-1.144188,"lat":52.632442,"type":"wftda","memberships":["wftda"]},
     {"name":"Dorset Raging Gulls","url":"http://www.drg-rollerderby.co.uk","lng":-1.854448,"lat":50.74896,"type":"wftda","memberships":[]},
-    {"name":"Dorset Roller Derby OTA","url":"https://www.facebook.com/DorsetRollerDerby","lng":-1.9055398,"lat":50.8043374,"type":"mrda","memberships":[]},
+    {"name":"Dorset Roller Derby OTA","url":"https://www.dorsetrollerderby.com","lng":-1.9055398,"lat":50.8043374,"type":"wftda+mrda","memberships":[]},
     {"name":"Dundee Roller Derby","url":"http://dundeerollerderby.wixsite.com/thedrd","lng":-2.958436,"lat":56.476173,"type":"wftda","memberships":["wftda"]},
     {"name":"Durham Roller Derby","url":"http://www.durhamrollerderby.com","lng":-1.6399977,"lat":54.78159,"type":"wftda","memberships":[]},
     {"name":"East Midlands Open Roller Derby","url":"http://www.emord.co.uk","lng":-1.2337061,"lat":52.9127626,"type":"mrda","memberships":["mrda"]},
